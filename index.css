@@ -1,0 +1,348 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    text-decoration:none;
+}
+.section-padding {
+	padding: 60px 0;
+}
+.bottom {
+    background-color: #0a1c2e;
+}
+.bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+}
+.copyright a {
+    color: #f2ff49;
+    margin-left: 3px;
+    padding-right: 3px;
+}
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.copyright p span {
+    color: #d1caca;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: #6c6d83;
+}
+.logo {
+    width: 5%;
+    min-width: 50px;
+}
+
+.titulo1 {
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 30px;
+    color: white;
+    font-style: inherit;
+}
+.trailer1 {
+    position: relative;
+    padding: 15%;
+    margin: auto;
+    max-width: 100%;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #f9fafb;
+}
+.nav-item {
+    margin-right: 50px;
+}
+.barra-superior {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+}
+.navbar {
+    background-color: rgb(0, 0, 0);
+}
+.navbar-toggler {
+    background-color: rgb(204, 204, 204);
+}
+.btn-outline-success {
+    color: #ffffff;
+    border-color: #ff0000;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #bd0000;
+    border-color: #bd0000;
+}
+.card-filmes{
+    max-width: 15%;
+    min-width: 200px;
+    margin: auto; 
+}
+.slider {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.carousel-inner {
+    height: auto;
+}
+.carousel-item .card {
+    max-width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+    height: auto;
+    background-color: #919191;
+    border: none;
+}
+
+.trailer1 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-bottom: auto;
+}
+.carousel-indicators {
+    z-index: 0;
+    margin-top: auto;
+    margin-bottom: -2.5rem;
+}
+.carousel-item card card-body {
+    margin-top: 50px;
+    padding: auto;
+
+}
+.navbar2 {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.slides-b {
+    background-color: rgb(179, 179, 179);
+}
+.cards1 {
+    padding-right: 150px;
+    padding-left: 150px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+.card-filmes {
+    max-width: 20%;
+    width: 100%;
+    padding-top: 25px;
+    margin-top: 0px;
+    text-align: center;
+}
+.botao {
+    background-color: white;
+    justify-content: end;
+    padding-right: 10%;
+}
+.btn {
+    color: red;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.dropdown button {
+    color: rgb(255, 255, 255);
+}
+.bg-light {
+    background-color: rgb(255, 255, 255)!important;
+}
+.navbar3 {
+    padding-top: 40px;
+    text-align: end;
+}
+.titulo3 {
+    padding-left: 140px;
+}
+.cardsmkt {
+    width: 90%;
+}
+.trailer2 {
+    padding: 25%;
+}
+.trailer2 iframe {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70%;
+    padding-bottom: 30px;
+}
+.card-making {
+    margin: auto;
+}
+
+.card4 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: auto;
+    padding: 0px;
+}
+.card-body4 {
+    padding: 1rem 1rem;
+    padding-top: 20px;
+}
+.card4 iframe {
+    width: 100%;
+    height: 100%;
+}
+.row-making {
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.destacados{
+    padding: 20px 0;
+	text-align: center;
+}
+.destacados > div > div{
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	transition: 0.2s;
+}
+.destacados > div:hover > div{
+	margin-top: -10px;
+	border: 1px solid rgb(200, 200, 200);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+	background: rgba(200, 200, 200, 0.1);
+	transition: 0.5s;
+}
+.img-circle {
+    width: 50%;
+    border-radius: 50%;
+}
+.estrelas input[type=radio] {
+    display: none;
+  }
+.estrelas label i.fa:before {
+    content:'\f005';
+    color: #FC0;
+  }
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+  }
+
+@media screen and (min-width:240px) and (max-width:750px) {
+    .row-making {
+        display: grid;
+        align-content: center;
+        width: 100%;
+    }    
+    .card4 {
+        margin-top: 30px;
+    }
+    .cards1 {
+        padding: 0px;
+    }
+   .titin{
+       text-align: center;
+       padding: 0px;
+   }
+   .titulo3 {
+       padding: 0px;
+       text-align: center;
+   }
+    .botao {
+        background-color: white;
+        justify-content: end;
+        padding: 0px;
+        margin: auto;
+        text-align: center;
+    }
+    .navbar2 {
+        padding: 0px;
+    }
+}
+@media screen and (min-width:751px) {
+    .row-making {
+        display: flex;
+        align-content: center;
+        width: 100%;
+    }
+    .finalmente {
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+
+}
+.finalmente {
+    padding-bottom: 30px;
+}
+.novidades {
+    display: block;
+    align-content: center;
+    margin: 0 auto;
+    width: 50%;
+
+}
+.card-1 img {
+    width: 100%;
+    height: 100%;
+}
+.novidades .card {
+    margin: auto;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+
+.imagem-nov img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;    
+}
+.imagem-nov {
+    display: flex;
+    align-items: center;
+}
+.textos-sobre {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.rede-soc .fab {
+    width: 50px;
+    margin: auto;
+}
+.editorial {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.filminho{
+    padding-top: 7%;
+}
+.pesq{
+    margin: auto;
+    align-items: center;
+}
+.dflex{
+    text-align: center;
+}
